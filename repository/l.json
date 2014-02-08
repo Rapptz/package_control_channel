@@ -2,6 +2,16 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
+			"name": "Lambda Substitution",
+			"details": "https://github.com/dariusf/LambdaSubstitution",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/dariusf/LambdaSubstitution/tags"
+				}
+			]
+		},
+		{
 			"name": "Language - Up-Goer-5",
 			"details": "https://github.com/serialhex/Language---Up-Goer-5",
 			"releases": [
@@ -14,6 +24,7 @@
 		{
 			"name": "Laravel 4 Artisan",
 			"details": "https://github.com/m0nah/Laravel-4-Artisan",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4RCBDUG2TQEJY",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -126,6 +137,16 @@
 			]
 		},
 		{
+			"name": "LaTeX Snippets",
+			"details": "https://github.com/tknuth/latex_snippets",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/tknuth/latex_snippets/tags"
+				}
+			]
+		},
+		{
 			"name": "LaTeX Track Changes",
 			"details": "https://github.com/rioderaca/LaTeX-Track-Changes",
 			"releases": [
@@ -140,7 +161,7 @@
 			"details": "https://github.com/lionandoil/SublimeLaTeXWordCount",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/lionandoil/SublimeLaTeXWordCount/tree/master"
 				}
 			]
@@ -157,14 +178,15 @@
 			]
 		},
 		{
-			"name": "LaTeXSq",
-			"details": "https://github.com/randy3k/LaTeXSq",
+			"name": "LaTeXSQ",
+			"details": "https://github.com/randy3k/LaTeXSQ",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"details": "https://github.com/randy3k/LaTeXSq/tags"
+					"details": "https://github.com/randy3k/LaTeXSQ/tags"
 				}
-			]
+			],
+			"previous_names": ["LaTeXSq"]
 		},
 		{
 			"name": "LaTeXTab",
@@ -280,8 +302,18 @@
 			"details": "https://github.com/mazurov/sublime-levels",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/mazurov/sublime-levels/tree/master"
+				}
+			]
+		},
+		{
+			"name": "LFE",
+			"details": "https://github.com/oubiwann/lfe-sublime-plugin",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/oubiwann/lfe-sublime-plugin/tags"
 				}
 			]
 		},
@@ -291,7 +323,7 @@
 			"labels": ["snippets"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/sijk/sublime-licence-snippets/tree/master"
 				}
 			]
@@ -319,6 +351,17 @@
 			]
 		},
 		{
+			"name": "LightPaper Markdown",
+			"details": "https://github.com/ashokgelal/lightpaper-sublime",
+			"labels": ["markdown", "editor", "preview", "html"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/ashokgelal/lightpaper-sublime/tree/master"
+				}
+			]
+		},
+		{
 			"name": "Line Completion",
 			"details": "https://github.com/astropanic/Compline",
 			"releases": [
@@ -342,10 +385,6 @@
 		{
 			"details": "https://github.com/SublimeText/LineEndings",
 			"releases": [
-				{
-					"sublime_text": "<3000",
-					"details": "https://github.com/SublimeText/LineEndings/tree/master"
-				},
 				{
 					"sublime_text": ">=3000",
 					"details": "https://github.com/SublimeText/LineEndings/tree/st3"
@@ -419,7 +458,7 @@
 			"details": "https://github.com/MaciekBaron/sublime-list-less-vars",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/MaciekBaron/sublime-list-less-vars/tree/master"
 				}
 			]
@@ -429,7 +468,7 @@
 			"details": "https://github.com/MaciekBaron/sublime-list-stylesheet-vars",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/MaciekBaron/sublime-list-stylesheet-vars/tree/master"
 				}
 			]
@@ -480,7 +519,7 @@
 			"details": "https://github.com/dz0ny/LiveReload-sublimetext2",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"details": "https://github.com/dz0ny/LiveReload-sublimetext2/tree/master"
 				}
 			]
@@ -550,6 +589,17 @@
 				{
 					"sublime_text": "*",
 					"details": "https://github.com/vishr/local-history/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Locales",
+			"details": "https://github.com/AndorChen/sublime-locales",
+			"labels": ["i18n", "l10n"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/AndorChen/sublime-locales/tags"
 				}
 			]
 		},
